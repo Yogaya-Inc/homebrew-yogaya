@@ -12,6 +12,6 @@ class Yogaya < Formula
   end
 
   test do
-    assert_match "1.0.1", shell_output("#{bin}/yogaya --version")
+    assert_match "1.2", shell_output("#{bin}/yogaya --version")
   end
 end
